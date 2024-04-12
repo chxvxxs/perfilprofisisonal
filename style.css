@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: rgb(150, 110, 61);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.profile-info{
+  font-family: 'Righteous', cursive;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  font-family: 'Righteous', cursive;
+}
+
+.about-image {
+  margin-left: 20px;
+  max-width: 400px;
+}
+#contact{
+  font-family: 'Righteous', cursive;
+}
